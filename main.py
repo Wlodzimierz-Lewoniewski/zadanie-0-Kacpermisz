@@ -6,4 +6,5 @@ wyraz=input()
 wyraz=wyraz.strip()
 
 #Wydruk na ekranie (w konsoli)
+print("Test")
 print ('Ten wyraz został wprowadzony:', wyraz)
