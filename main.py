@@ -5,6 +5,7 @@ zdania = int(input("Podaj liczbę zdań: "))
 i = 0
 j = 0
 lista_z = []
+megalista = []
 
 while i < zdania:
     zdanie = input("Podaj zdanie numer "+str(i+1)+": ")
@@ -25,5 +26,8 @@ while j < slowa:
     for index, count in sort:
         if count > 0:
             lista_i.append(index)
-    print(lista_i)
+    megalista.append(lista_i)
     j += 1
+
+for wynik in megalista:
+    print(wynik)
