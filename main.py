@@ -1,4 +1,3 @@
-#Przykład otrzymania wartości wprowadzonej przy użyciu funkcji input().
 import re
 
 zdania = int(input("Podaj liczbę zdań: "))
